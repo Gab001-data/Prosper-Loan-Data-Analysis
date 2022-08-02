@@ -12,7 +12,7 @@ It is highly recommended that you use the [Anaconda distribution](https://www.an
 
 ```
 
-Check the [Jupyter Notebook]() for a workthrough of the analytical process implemented in this project which include.
+Check the [Jupyter Notebook](https://github.com/Gab001-data/Prosper-Loan-Data-Analysis/blob/master/Part_I_exploration_template.ipynb) for a workthrough of the analytical process implemented in this project which include.
 
 1. Import Libraries
 2. Data acquision and import into pandas dataframe
@@ -23,14 +23,14 @@ Check the [Jupyter Notebook]() for a workthrough of the analytical process imple
 7. Slide deck creation.
 
 ## Pair-wise Relationship between variables of Interest
-![variables pair-wise relationship]()
+![variables pair-wise relationship](https://github.com/Gab001-data/Prosper-Loan-Data-Analysis/blob/master/pair-wise-relationship.png)
 
 The borrowers interest rate shows a strong negative relationship with ProsperScore and CreditScoreRangeLower variables as expected (since they indicate risk). Interest rate also has a negative correlation to LoanOriginalAmount albert not so strong since the LoanOriginalAmount is distributed over large intervals.
 
 There is also a moderate positive correlation between ProsperScore and CreditScoreRangeLower. the loan term does not have a strong correlation with any of the other numeric variables as such I won't be performing any further exploration/investigation on this variable.
 
 ## BorrowerRate vs ProsperScore for Levels of ProsperRatings
-![rate-prosperscore for ProsperRating encoding]()
+![rate-prosperscore for ProsperRating encoding](https://github.com/Gab001-data/Prosper-Loan-Data-Analysis/blob/master/intRatevsPscore_for_ProsperRating.png)
 
 We see a clear interaction of the ProsperRating with the relationship between BorrowerRate and ProsperScore. For a given ProsperScore the BorrowerRate (interest rate) declines with increasing Prosper rating. from the plot, higher ratings of A, AA have very low interest rate of about 10%
 
@@ -52,7 +52,7 @@ __It is important to note that these insights are tentative and not exhaustive s
 
 ## Relevant Links
 
-- [Jupyter Notebook]()
+- [Jupyter Notebook](https://github.com/Gab001-data/Prosper-Loan-Data-Analysis/blob/master/Part_I_exploration_template.ipynb)
 - [Linkedln](https://www.linkedin.com/in/gabriel-ogih-609a091a1/)
 - [Twitter](https://twitter.com/dev_gabby)
 - [Medium Article]()
